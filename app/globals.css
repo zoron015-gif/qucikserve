@@ -17,7 +17,7 @@ h1 span { color: #ff6900; }
 .title-copy p { margin: 7px 0 9px; color: #52647b; font-family: var(--font-montserrat), Montserrat, Arial, sans-serif; font-size: 15px; font-weight: 400; }
 .title-accent { display: block; width: 75px; height: 2px; margin: auto; background: #ff6900; }
 .chooser-body { display: grid; grid-template-columns: 1.25fr 1fr; height: calc(100% - 170px); min-height: 0; align-items: stretch; }
-.store-grid { min-height: 0; padding: clamp(12px, 2vh, 22px) clamp(16px, 3vw, 52px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); align-content: stretch; gap: clamp(7px, 1vw, 12px); border-right: 1px solid #e2e6e2; background: #f3f3f3; }
+.store-grid { min-height: 0; padding: 0 clamp(16px, 3vw, 52px) clamp(12px, 2vh, 22px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); align-content: stretch; gap: clamp(7px, 1vw, 12px); border-right: 1px solid #e2e6e2; background: #f3f3f3; }
 .store-option { position: relative;min-width: 0;width: 100%;min-height: 0;height: 100%;overflow: hidden;display: flex;align-items: center;justify-content: center;padding: 16px;background: #ffffff;border: 1px solid #eef0f2;border-radius: 14px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);transition: all 0.2s ease-in-out;
 }
 
@@ -103,7 +103,7 @@ h1 span { color: #ff6900; }
 }
 .store-option small { display: block; min-height: 12px; margin-top: 5px; color: #68766d; font-size: 9px; font-weight: 400; }
 .store-option small.coming { color: #b37b16; font-weight: 600; }
-.preview { min-height: 0; height: 100%; overflow: hidden; padding: clamp(18px, 2.5vh, 32px) clamp(24px, 4vw, 70px); background: #fff; display: flex; flex-direction: column; }
+.preview { min-height: 0; height: 100%; overflow: hidden; padding: clamp(18px, 2.5vh, 32px) clamp(24px, 4vw, 70px); border-radius: 10px; background: #fff; display: flex; flex-direction: column; }
 .preview-photo { flex: 0 0 auto; width: 100%; max-height: 360px; aspect-ratio: 16 / 9; object-fit: cover; object-position: center; background: #102b50; border: 1px solid #d1d8d2; border-radius: 10px; box-shadow: 0 5px 13px #55635920; filter: drop-shadow(0 7px 7px #55635930); }
 .preview-photo-full { object-fit: fill; }
 .preview h2 { margin: 12px 0 5px; color: #102b50; font-size: clamp(18px, 1.5vw, 26px); font-weight: 700; line-height: 1.2; }
